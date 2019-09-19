@@ -1,0 +1,35 @@
+    .squares-component{
+        margin: 20px;
+        display: flex;
+        .s1{
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            background: rgb(145, 145, 219);
+            
+            
+        }
+        .s2{
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            background: palevioletred;
+        
+        }
+        .s3{
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            background: rgb(116, 216, 112);
+        }
+        .s4{
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            background: rgb(224, 216, 100);
+        }
+    }

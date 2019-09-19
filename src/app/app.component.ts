@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'square-colorname';
+  title: string = "Nyomj meg egy négyzetet!";
+  onAddBlue(){
+    this.title = 'Kék négyzet';
+  }
+  onAddPink(){
+    this.title = 'Rózsaszín négyzet';
+  }
+  onAddGreen(){
+    this.title = 'Zöld négyzet';
+  }
+  onAddYellow(){
+    this.title = 'Sárga négyzet';
+  }
 }
+
