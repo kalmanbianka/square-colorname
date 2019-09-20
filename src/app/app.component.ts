@@ -7,17 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = "Nyomj meg egy négyzetet!";
-  onAddBlue(){
-    this.title = 'Kék négyzet';
-  }
-  onAddPink(){
-    this.title = 'Rózsaszín négyzet';
-  }
-  onAddGreen(){
-    this.title = 'Zöld négyzet';
-  }
-  onAddYellow(){
-    this.title = 'Sárga négyzet';
-  }
+ 
 }
 
