@@ -1,8 +1,8 @@
 <div class="squares-component">
-    <div class="s1" (click)="onAddBlue()"></div>
-    <div class="s2" (click)="onAddPink()"></div>
-    <div class="s3" (click)="onAddGreen()"></div>
-    <div class="s4" (click)="onAddYellow()"></div>
-    <hr>
+    <div class="s1" (click)="setTitleByColor('kék')"></div>
+    <div class="s2" (click)="setTitleByColor('rózsaszín')"></div>
+    <div class="s3" (click)="setTitleByColor('zöld')"></div>
+    <div class="s4" (click)="setTitleByColor('sárga')"></div>
+    
     <p>A kattintott négyzet színe: <strong> {{ title }} </strong> </p>
 </div>

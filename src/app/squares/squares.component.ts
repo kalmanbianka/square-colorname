@@ -13,16 +13,7 @@ export class SquaresComponent implements OnInit {
   ngOnInit() {
   }
   
-  onAddBlue(){
-    this.title = 'Kék négyzet';
-  }
-  onAddPink(){
-    this.title = 'Rózsaszín négyzet';
-  }
-  onAddGreen(){
-    this.title = 'Zöld négyzet';
-  }
-  onAddYellow(){
-    this.title = 'Sárga négyzet';
+  setTitleByColor(color:string){
+    this.title = color;
   }
 }
